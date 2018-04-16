@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B6F70041BFB060A0059D923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F70031BFB060A0059D923 /* main.m */; };
+		9B6F70071BFB060A0059D923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F70061BFB060A0059D923 /* AppDelegate.m */; };
+		9B6F700A1BFB060A0059D923 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F70091BFB060A0059D923 /* ViewController.m */; };
+		9B6F700D1BFB060B0059D923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6F700B1BFB060B0059D923 /* Main.storyboard */; };
+		9B6F700F1BFB060B0059D923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6F700E1BFB060B0059D923 /* Assets.xcassets */; };
+		9B6F70121BFB060B0059D923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6F70101BFB060B0059D923 /* LaunchScreen.storyboard */; };
+		9B6F701D1BFB060B0059D923 /* FBLWaterFlowGridViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F701C1BFB060B0059D923 /* FBLWaterFlowGridViewTests.m */; };
+		9B6F70281BFB060B0059D923 /* FBLWaterFlowGridViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F70271BFB060B0059D923 /* FBLWaterFlowGridViewUITests.m */; };
+		9B6F70381BFB070B0059D923 /* FBLWatherFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F70371BFB070B0059D923 /* FBLWatherFlowView.m */; };
+		9B6F703B1BFB08490059D923 /* FBLWatherFlowReuseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F703A1BFB08490059D923 /* FBLWatherFlowReuseView.m */; };
+		9B6F70421BFC84B50059D923 /* FBLHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F70411BFC84B50059D923 /* FBLHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B6F70191BFB060B0059D923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B6F6FF71BFB060A0059D923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6F6FFE1BFB060A0059D923;
+			remoteInfo = FBLWaterFlowGridView;
+		};
+		9B6F70241BFB060B0059D923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B6F6FF71BFB060A0059D923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6F6FFE1BFB060A0059D923;
+			remoteInfo = FBLWaterFlowGridView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B6F6FFF1BFB060A0059D923 /* FBLWaterFlowGridView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLWaterFlowGridView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6F70031BFB060A0059D923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B6F70051BFB060A0059D923 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B6F70061BFB060A0059D923 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B6F70081BFB060A0059D923 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B6F70091BFB060A0059D923 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B6F700C1BFB060B0059D923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B6F700E1BFB060B0059D923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B6F70111BFB060B0059D923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B6F70131BFB060B0059D923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6F70181BFB060B0059D923 /* FBLWaterFlowGridViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBLWaterFlowGridViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6F701C1BFB060B0059D923 /* FBLWaterFlowGridViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBLWaterFlowGridViewTests.m; sourceTree = "<group>"; };
+		9B6F701E1BFB060B0059D923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6F70231BFB060B0059D923 /* FBLWaterFlowGridViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBLWaterFlowGridViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6F70271BFB060B0059D923 /* FBLWaterFlowGridViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBLWaterFlowGridViewUITests.m; sourceTree = "<group>"; };
+		9B6F70291BFB060B0059D923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6F70361BFB070B0059D923 /* FBLWatherFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLWatherFlowView.h; sourceTree = "<group>"; };
+		9B6F70371BFB070B0059D923 /* FBLWatherFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLWatherFlowView.m; sourceTree = "<group>"; };
+		9B6F70391BFB08490059D923 /* FBLWatherFlowReuseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLWatherFlowReuseView.h; sourceTree = "<group>"; };
+		9B6F703A1BFB08490059D923 /* FBLWatherFlowReuseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLWatherFlowReuseView.m; sourceTree = "<group>"; };
+		9B6F70401BFC84B50059D923 /* FBLHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLHeaderView.h; sourceTree = "<group>"; };
+		9B6F70411BFC84B50059D923 /* FBLHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLHeaderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6F6FFC1BFB060A0059D923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6F70151BFB060B0059D923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6F70201BFB060B0059D923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B6F6FF61BFB060A0059D923 = {
+			isa = PBXGroup;
+			children = (
+				9B6F70011BFB060A0059D923 /* FBLWaterFlowGridView */,
+				9B6F701B1BFB060B0059D923 /* FBLWaterFlowGridViewTests */,
+				9B6F70261BFB060B0059D923 /* FBLWaterFlowGridViewUITests */,
+				9B6F70001BFB060A0059D923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6F70001BFB060A0059D923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6F6FFF1BFB060A0059D923 /* FBLWaterFlowGridView.app */,
+				9B6F70181BFB060B0059D923 /* FBLWaterFlowGridViewTests.xctest */,
+				9B6F70231BFB060B0059D923 /* FBLWaterFlowGridViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B6F70011BFB060A0059D923 /* FBLWaterFlowGridView */ = {
+			isa = PBXGroup;
+			children = (
+				9B6F70351BFB06D50059D923 /* FBLWaterFlowView */,
+				9B6F70051BFB060A0059D923 /* AppDelegate.h */,
+				9B6F70061BFB060A0059D923 /* AppDelegate.m */,
+				9B6F70081BFB060A0059D923 /* ViewController.h */,
+				9B6F70091BFB060A0059D923 /* ViewController.m */,
+				9B6F70401BFC84B50059D923 /* FBLHeaderView.h */,
+				9B6F70411BFC84B50059D923 /* FBLHeaderView.m */,
+				9B6F700B1BFB060B0059D923 /* Main.storyboard */,
+				9B6F700E1BFB060B0059D923 /* Assets.xcassets */,
+				9B6F70101BFB060B0059D923 /* LaunchScreen.storyboard */,
+				9B6F70131BFB060B0059D923 /* Info.plist */,
+				9B6F70021BFB060A0059D923 /* Supporting Files */,
+			);
+			path = FBLWaterFlowGridView;
+			sourceTree = "<group>";
+		};
+		9B6F70021BFB060A0059D923 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B6F70031BFB060A0059D923 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B6F701B1BFB060B0059D923 /* FBLWaterFlowGridViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6F701C1BFB060B0059D923 /* FBLWaterFlowGridViewTests.m */,
+				9B6F701E1BFB060B0059D923 /* Info.plist */,
+			);
+			path = FBLWaterFlowGridViewTests;
+			sourceTree = "<group>";
+		};
+		9B6F70261BFB060B0059D923 /* FBLWaterFlowGridViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6F70271BFB060B0059D923 /* FBLWaterFlowGridViewUITests.m */,
+				9B6F70291BFB060B0059D923 /* Info.plist */,
+			);
+			path = FBLWaterFlowGridViewUITests;
+			sourceTree = "<group>";
+		};
+		9B6F70351BFB06D50059D923 /* FBLWaterFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				9B6F70361BFB070B0059D923 /* FBLWatherFlowView.h */,
+				9B6F70371BFB070B0059D923 /* FBLWatherFlowView.m */,
+				9B6F70391BFB08490059D923 /* FBLWatherFlowReuseView.h */,
+				9B6F703A1BFB08490059D923 /* FBLWatherFlowReuseView.m */,
+			);
+			path = FBLWaterFlowView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6F6FFE1BFB060A0059D923 /* FBLWaterFlowGridView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6F702C1BFB060B0059D923 /* Build configuration list for PBXNativeTarget "FBLWaterFlowGridView" */;
+			buildPhases = (
+				9B6F6FFB1BFB060A0059D923 /* Sources */,
+				9B6F6FFC1BFB060A0059D923 /* Frameworks */,
+				9B6F6FFD1BFB060A0059D923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBLWaterFlowGridView;
+			productName = FBLWaterFlowGridView;
+			productReference = 9B6F6FFF1BFB060A0059D923 /* FBLWaterFlowGridView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B6F70171BFB060B0059D923 /* FBLWaterFlowGridViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6F702F1BFB060B0059D923 /* Build configuration list for PBXNativeTarget "FBLWaterFlowGridViewTests" */;
+			buildPhases = (
+				9B6F70141BFB060B0059D923 /* Sources */,
+				9B6F70151BFB060B0059D923 /* Frameworks */,
+				9B6F70161BFB060B0059D923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6F701A1BFB060B0059D923 /* PBXTargetDependency */,
+			);
+			name = FBLWaterFlowGridViewTests;
+			productName = FBLWaterFlowGridViewTests;
+			productReference = 9B6F70181BFB060B0059D923 /* FBLWaterFlowGridViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B6F70221BFB060B0059D923 /* FBLWaterFlowGridViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6F70321BFB060B0059D923 /* Build configuration list for PBXNativeTarget "FBLWaterFlowGridViewUITests" */;
+			buildPhases = (
+				9B6F701F1BFB060B0059D923 /* Sources */,
+				9B6F70201BFB060B0059D923 /* Frameworks */,
+				9B6F70211BFB060B0059D923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B6F70251BFB060B0059D923 /* PBXTargetDependency */,
+			);
+			name = FBLWaterFlowGridViewUITests;
+			productName = FBLWaterFlowGridViewUITests;
+			productReference = 9B6F70231BFB060B0059D923 /* FBLWaterFlowGridViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B6F6FF71BFB060A0059D923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = fatboyli;
+				TargetAttributes = {
+					9B6F6FFE1BFB060A0059D923 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					9B6F70171BFB060B0059D923 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9B6F6FFE1BFB060A0059D923;
+					};
+					9B6F70221BFB060B0059D923 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 9B6F6FFE1BFB060A0059D923;
+					};
+				};
+			};
+			buildConfigurationList = 9B6F6FFA1BFB060A0059D923 /* Build configuration list for PBXProject "FBLWaterFlowGridView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B6F6FF61BFB060A0059D923;
+			productRefGroup = 9B6F70001BFB060A0059D923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6F6FFE1BFB060A0059D923 /* FBLWaterFlowGridView */,
+				9B6F70171BFB060B0059D923 /* FBLWaterFlowGridViewTests */,
+				9B6F70221BFB060B0059D923 /* FBLWaterFlowGridViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B6F6FFD1BFB060A0059D923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6F70121BFB060B0059D923 /* LaunchScreen.storyboard in Resources */,
+				9B6F700F1BFB060B0059D923 /* Assets.xcassets in Resources */,
+				9B6F700D1BFB060B0059D923 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6F70161BFB060B0059D923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6F70211BFB060B0059D923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6F6FFB1BFB060A0059D923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6F70421BFC84B50059D923 /* FBLHeaderView.m in Sources */,
+				9B6F70381BFB070B0059D923 /* FBLWatherFlowView.m in Sources */,
+				9B6F703B1BFB08490059D923 /* FBLWatherFlowReuseView.m in Sources */,
+				9B6F700A1BFB060A0059D923 /* ViewController.m in Sources */,
+				9B6F70071BFB060A0059D923 /* AppDelegate.m in Sources */,
+				9B6F70041BFB060A0059D923 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6F70141BFB060B0059D923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6F701D1BFB060B0059D923 /* FBLWaterFlowGridViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6F701F1BFB060B0059D923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6F70281BFB060B0059D923 /* FBLWaterFlowGridViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B6F701A1BFB060B0059D923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6F6FFE1BFB060A0059D923 /* FBLWaterFlowGridView */;
+			targetProxy = 9B6F70191BFB060B0059D923 /* PBXContainerItemProxy */;
+		};
+		9B6F70251BFB060B0059D923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6F6FFE1BFB060A0059D923 /* FBLWaterFlowGridView */;
+			targetProxy = 9B6F70241BFB060B0059D923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B6F700B1BFB060B0059D923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6F700C1BFB060B0059D923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B6F70101BFB060B0059D923 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6F70111BFB060B0059D923 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B6F702A1BFB060B0059D923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9B6F702B1BFB060B0059D923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B6F702D1BFB060B0059D923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FBLWaterFlowGridView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent.FBLWaterFlowGridView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B6F702E1BFB060B0059D923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FBLWaterFlowGridView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent.FBLWaterFlowGridView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B6F70301BFB060B0059D923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBLWaterFlowGridViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent.FBLWaterFlowGridViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBLWaterFlowGridView.app/FBLWaterFlowGridView";
+			};
+			name = Debug;
+		};
+		9B6F70311BFB060B0059D923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBLWaterFlowGridViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent.FBLWaterFlowGridViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBLWaterFlowGridView.app/FBLWaterFlowGridView";
+			};
+			name = Release;
+		};
+		9B6F70331BFB060B0059D923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FBLWaterFlowGridViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent.FBLWaterFlowGridViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FBLWaterFlowGridView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9B6F70341BFB060B0059D923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FBLWaterFlowGridViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tencent.FBLWaterFlowGridViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FBLWaterFlowGridView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B6F6FFA1BFB060A0059D923 /* Build configuration list for PBXProject "FBLWaterFlowGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6F702A1BFB060B0059D923 /* Debug */,
+				9B6F702B1BFB060B0059D923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6F702C1BFB060B0059D923 /* Build configuration list for PBXNativeTarget "FBLWaterFlowGridView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6F702D1BFB060B0059D923 /* Debug */,
+				9B6F702E1BFB060B0059D923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6F702F1BFB060B0059D923 /* Build configuration list for PBXNativeTarget "FBLWaterFlowGridViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6F70301BFB060B0059D923 /* Debug */,
+				9B6F70311BFB060B0059D923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6F70321BFB060B0059D923 /* Build configuration list for PBXNativeTarget "FBLWaterFlowGridViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6F70331BFB060B0059D923 /* Debug */,
+				9B6F70341BFB060B0059D923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B6F6FF71BFB060A0059D923 /* Project object */;
+}
